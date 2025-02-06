@@ -54,6 +54,7 @@ console.log('Exercise 2 Result:', isAdult(21));
 // Complete the exercise in the space below:
 
 
+<<<<<<< HEAD
 function isCharAVowel(char) {
   // console.log("Exercise 3.1 Result: ", char);
   if (char === "a" || char === "e" || char === "i" || char === "o" || char === "u") {
@@ -69,6 +70,17 @@ console.log("Exercise 3.2 Result:", isCharAVowel("a"));
 console.log("Exercise 3.3 Result:", isCharAVowel("b"));
 console.log("Exercise 3.4 Result:", isCharAVowel("i"));
 
+=======
+function isCharAVowel() {
+  if ("a", "e", "i", "o", "u") {
+      return "true";
+  } else {
+      return "false";
+  };
+};
+
+console.log("Exercise 3 Result:", isCharAVowel("a"));
+>>>>>>> 81dd1b33cf65c265c5bd0456c42c9c710bbc64b7
 
 
 /*
@@ -103,11 +115,19 @@ Example: greetUser('Sam', 'morning') should return "Good morning, Sam!"
 Complete the exercise in the space below:
 */
 
+<<<<<<< HEAD
 function greetUser(name, timeOfTheDay) {
   console.log("Exercise 5 Result:", `Good ${timeOfTheDay}, ${name}!`);
 };
 
 console.log('Exercise 5 Result:', greetUser("Sam", "afternoon")); //I think this is bugged
+=======
+function greetUser(name) {
+  console.log("Exercise 5 Result:",`Good Morning, ${name}!`);
+};
+
+console.log('Exercise 5 Result:', greetUser("Sam", "morning")); //I think this is bugged
+>>>>>>> 81dd1b33cf65c265c5bd0456c42c9c710bbc64b7
 // Only way this function doesn't break is if I leave this duplicate console.log here
 //  ignore 2nd console log <3
 
